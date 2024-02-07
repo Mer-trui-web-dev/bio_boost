@@ -1,0 +1,90 @@
+body {
+font-family: "georgia"; 
+}
+
+.flex-header {
+background-color: #D9C5B0;
+padding: 20px;
+display: flex;
+flex-direction: row;
+}
+
+.image {
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+.header-description {
+    align-self: center;
+}
+
+#main-h1 {
+    font-size: 50px;
+}
+
+h1 {
+    font-size: large;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #EDE7DC;
+    border: 1px solid #D9C5B0;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #D9C5B0;
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    background-color: #806556;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    align-items: flex-start;
+}
+
+.main-info {
+display: flex;
+flex-direction: column;
+width: 50%;
+text-align: justify;
+}
+
+.work-info {
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+}
+
+img {
+    border: solid 3px #806556;
+}
+
+.image-2and3 {
+display: flex;
+gap: 10px;
+}
+
+.flex-footer {
+    background-color: #D9C5B0;
+    padding: 20px;
+    text-align: center;
+}
