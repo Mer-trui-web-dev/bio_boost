@@ -1,38 +1,25 @@
 body {
-font-family: "georgia"; 
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .flex-header {
 background-color: #D9C5B0;
-padding: 20px;
+padding: 50px;
 display: flex;
 flex-direction: row;
-}
-
-.image {
-    padding-left: 10px;
-    padding-right: 30px;
+justify-content: space-between;
+border-bottom: solid 2px #806556;
 }
 
 .header-description {
-    align-self: center;
-}
-
-#main-h1 {
-    font-size: 50px;
-}
-
-h1 {
-    font-size: large;
+    font-size: xx-large;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 10px;
-    overflow: hidden;
-    background-color: #EDE7DC;
     border: 1px solid #D9C5B0;
+    align-self: flex-end;
 }
 
 li {
@@ -45,7 +32,6 @@ li a {
     display: block;
     text-align: center;
     padding: 10px 12px;
-    text-decoration: none;
     color: black;
 }
 
@@ -53,38 +39,33 @@ li a:hover {
     background-color: #806556;
 }
 
-.flex-container {
+.flex-main {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-bottom: 10px;
-    align-items: flex-start;
+    flex-direction: column;
+    background-color: #EDE7DC;
 }
 
-.main-info {
-display: flex;
-flex-direction: column;
-width: 50%;
-text-align: justify;
+.inner {
+    padding: 50px;
 }
 
-.work-info {
-display: flex;
-flex-direction: column;
-gap: 0.5rem;
+.head {
+    float: left;
+    width: 20%;
+    text-align: right;
+    font-size: x-large;
+    font-weight: bold;
 }
 
-img {
-    border: solid 3px #806556;
-}
-
-.image-2and3 {
-display: flex;
-gap: 10px;
+.body {
+    float: right;
+    width: 70%;
 }
 
 .flex-footer {
+    display: flex;
     background-color: #D9C5B0;
     padding: 20px;
-    text-align: center;
+    border-top: solid 2px #806556;
 }
+
