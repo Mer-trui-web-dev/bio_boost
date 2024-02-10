@@ -5,58 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Merrill Truideman</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
 
 <body>
-   <header class="flex-header">
+
+   <div class="flex-header">
+        <div>
+            <img src="profile_new.png" alt="profile picture" width="200px" height="200px"> 
+        </div>
+    
         <div class="header-description">
-        <b>Portfolio: Merrill Truideman</b>
+        <b>PORTFOLIO: MERRILL TRUIDEMAN</b>
         </div>
 
         <div class="ul">
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">My Work</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#about-title">About Me</a></li>
+                <li><a href="#work-title">My Work</a></li>
+                <li><a href="#contact-title">Contact Me</a></li>
             </ul>
         </div>   
-   </header>
+    </div>
 
-   <div class="flex-main">
-    <section class="inner">
-        <div class="head">About Me</div>
-        <div class="body">I am an office administrator, newly exposed to the world of Web Development and Coding. I started my career as a legal
+    <div class="grid-container">
+        <div id="about-title">ABOUT ME</div>
+        <div id="about-body">I am an office administrator, newly exposed to the world of Web Development and Coding. <br>I started my career as a legal
             drafter for local government and obtained a diploma in Human Resources Management when I relocated to Canada.
-            I am honored to be one of Skillhat's Diverse tech Talent Program Scholarship and hope to continue on this journey 
+            <br>I am honored to be one of Skillhat's Diverse tech Talent Program Scholarship and hope to continue on this journey 
             even after the program comes to an end.
             My interest for Tech overall comes from my love for the Internet and all developments that we have experienced over the past few years.
             The most I have known about being in the online space has been self-thought, but I have always been curious to expand my skills.
-            Why would a legal / HR professional would want to learn code? Because technology is a part of every industry we know.
-            Human Resources technologies are developing in rapid speed and having this knowledge gives me a competitive advantage.</div>
-    </section>
+            <br><br>Why would a legal / HR professional would want to learn code, you may ask? Because technology is a part of every industry we know.
+            Human Resources technologies are developing in rapid speed and having this knowledge gives me a competitive advantage.
+            <br><br>Take a look through my current and prospective client projects and follow my progress as I maneuvre through this new, amazingly complicated
+            skills journey!</div>
+        
+        <div id="work-title">MY WORK</div>
+        <div id="work-body">
+            <div class="image-grid">
+                <div id="img1">
+            <a href="https://mer-trui-web-dev.github.io/merfirstrepo/"><img class="image" src="basic-bio-page.jpg" alt="basic-bio-page" width="500px" height="520px"></a>
+                </div>
+            
+                <div id="img2-3">
+            <a href="https://mer-trui-web-dev.github.io/merfirstrepo/contactus.html"><img class="image" src="contact-form.jpg" alt="contact-form" width="250px" height="250px"></a>
+            <a href="https://github.com/Mer-trui-web-dev/ProCon_Suriname"><img class="image" src="client.jpg" alt="client" width="250px" height="250px"></a>
+                </div>
+            </div>
+            </div>
 
-    <section class="inner">
-        <div class="head">My Work</div>
-        <div class="body">
-            <img src="procon project thumbnail.png" alt="procon" width="800px" height="600px">
+        <div id="contact-title">CONTACT INFORMATION</div>
+        <div id="contact-body">
+            <a href="https://www.linkedin.com/in/merrill-truideman-205037151/"><button class="contact-block">LinkedIn</button></a>
+            <a href="https://github.com/Mer-trui-web-dev"><button class="contact-block">GitHub</button></a>
+            
         </div>
-        <div class="body">    
-            <img src="tru services project thumbnail.png" alt="tru" width="400px" height="350px">
-            <img src="courting project thumbnail.png" alt="courting" width="400px" height="350px">
-        </div>
-    </section>
+    </div>
 
-    <section class="inner">
-        <div class="head">Contact Information</div>
-        <div class="body">
-           LinkedIn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GitHub
-        </div>
-    </section>
-</div>
-
-   <footer class="flex-footer">
-    <p>&copy; 2024, All Rights Reserved.</p>
-   </footer>
+   <div class="footer">
+    <p>&copy;All Rights Reserved, 2024.</p>
+   </div>
 </body>
 
 </html>
